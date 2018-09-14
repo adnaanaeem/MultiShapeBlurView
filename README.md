@@ -34,7 +34,7 @@ defaultConfig {
 
 <h1>Implementation</h1>
 
-<h5>Step #4. Add actual imageview Which you ant  to blur after hat place <b>shapelayout</b> fot blur shape and then place blured imagevIew in this layout </h5>
+<h5>Step #4. Add actual imageview Which you ant  to blur after hat place <b>shapelayout</b> for blur shape and then place blurred imagevIew in this layout </h5>
 
 ```
   <ImageView
@@ -72,8 +72,7 @@ defaultConfig {
   ```
   
 <h6>Just add <b>ShapeLayout</b> and then switch views in activity using this statements</h6>
-  
-    ```
+
      ShapeLayout shapeLayout = (ShapeLayout) findViewById(R.id.shape_layout_overlay);
      
      shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.RECTANGLE); // by default
@@ -83,11 +82,8 @@ defaultConfig {
      shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.SQUARE);
      // or
      shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.CUT);
-     
- ```
-  ```
 
-<h5>Step #4. Now put blur method in your activity and call it form anywhere with its parameters </h5>
+<h5>Step #6. Now put blur method in your activity and call it form anywhere with its parameters </h5>
 
 ```
  private void applyBlurView(int r, int size) {
@@ -100,12 +96,13 @@ defaultConfig {
     }
 ```
 
-<h5>Step #5. Now time to call blur method to apply blur effect </h5>
+<h5>Step #7. Now time to call blur method to apply blur effect </h5>
 
 ```
  int blurRadius = 10;
  int blurImageScaledDwonSize = 200;
-  applyBlurView(blurRadius, blurImageScaledDwonSize);
+ actualImage.setImageResource(R.drawable.home);  //actual image and blured image must be set
+ applyBlurView(blurRadius, blurImageScaledDwonSize);
 ```
 
 [For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
