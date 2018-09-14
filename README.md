@@ -141,7 +141,8 @@ defaultConfig {
 
 
 
-[For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
+For [Sample Layout ](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)File or [Implementation](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/res/layout)guide click
+
 
 
 
