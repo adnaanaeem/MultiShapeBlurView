@@ -4,7 +4,7 @@ This is an Android project. Easy and simple library to apply multy shaped blur f
 Please check the sample app and feel to ask or any thing related to this library.
 
 <h2>Setup</h2>
-
+<h4>Step #1. Add the JitPack repository to your build file:</h4>
 ```
 allprojects {
     repositories {
