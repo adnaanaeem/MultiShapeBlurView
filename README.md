@@ -105,7 +105,7 @@ defaultConfig {
  applyBlurView(blurRadius, blurImageScaledDwonSize);
 ```
 
-<h3>If you wat to use only specfic shape blur then use these</h3>
+<h3>If you want to use only specfic shape blur then use these.</h3>
 
 ```
   <com.contentarcade.adnan.shapedblurlibrary.view.CircleLayout
