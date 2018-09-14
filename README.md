@@ -34,14 +34,7 @@ defaultConfig {
 
 <h1>Implementation</h1>
 
-```
-
- // call this method any where
-  applyBlurView(GaussianBlur.MAX_RADIUS, GaussianBlur.MAX_SIZE);
-
-```
-
-<h6>Put Blur method in your activity and call it form anywhere with its parameters </h6>
+<h5>Put blur method in your activity and call it form anywhere with its parameters </h5>
 
 ```
  private void applyBlurView(int r, int size) {
@@ -53,6 +46,17 @@ defaultConfig {
 
     }
     
+```
+
+<h5>now time to call blurmethod to apply blur effect </h5>
+
+```
+
+ // call this method any where with its parameters
+ int blurRadius = 10;
+ int blurImageScaledDwonSize = 200;
+  applyBlurView(blurRadius, blurImageScaledDwonSize);
+
 ```
 
 ```
