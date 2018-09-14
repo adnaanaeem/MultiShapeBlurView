@@ -48,7 +48,7 @@ defaultConfig {
     
 ```
 
-<h5>Step #5. Now time to call blurmethod to apply blur effect </h5>
+<h5>Step #5. Now time to call blur method to apply blur effect </h5>
 
 ```
 
