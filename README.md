@@ -50,7 +50,6 @@ defaultConfig {
 <h5>Step #5. Now time to call blur method to apply blur effect </h5>
 
 ```
- // call this method any where with its parameters
  int blurRadius = 10;
  int blurImageScaledDwonSize = 200;
   applyBlurView(blurRadius, blurImageScaledDwonSize);
