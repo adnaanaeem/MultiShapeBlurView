@@ -34,7 +34,7 @@ defaultConfig {
 
 <h1>Implementation</h1>
 
-<h5>Step #4. Add actual imageview Which you ant  to blur after hat place <b>shapelayout</b> for blur shape and then place blurred imagevIew in this layout </h5>
+<h5>Step #4. Add actual imageview which you want  to blur after hat place <b>shapelayout</b> for blur shape and then place blurred imagevIew in this layout </h5>
 
 ```
   <ImageView
@@ -104,6 +104,42 @@ defaultConfig {
  actualImage.setImageResource(R.drawable.home);  //actual image and blured image must be set
  applyBlurView(blurRadius, blurImageScaledDwonSize);
 ```
+
+<h5>If you wat to use only specfic shape blur then use these</h5>
+
+```
+  <com.contentarcade.adnan.shapedblurlibrary.view.CircleLayout
+            android:id="@+id/circle_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+```
+
+```
+ <com.contentarcade.adnan.shapedblurlibrary.view.RectangleLayout
+            android:id="@+id/rectangle_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+``` 
+
+```
+ <com.contentarcade.adnan.shapedblurlibrary.view.SquareLayout
+            android:id="@+id/square_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+``` 
+
+```
+ <com.contentarcade.adnan.shapedblurlibrary.view.CutLayout
+            android:id="@+id/cut_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+``` 
+
+
 
 [For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
 
