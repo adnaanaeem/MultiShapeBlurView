@@ -22,6 +22,15 @@ dependencies {
     implementation 'com.contentarcade.adnan.shapedblurview:+'
 }
 ```
+<h4>Step #3. Add the below lines on app module build.gradle file. </h4>
+
+```
+defaultConfig {
+    ...
+    renderscriptTargetApi 19
+    renderscriptSupportModeEnabled true
+}
+```
 
 [For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
 
