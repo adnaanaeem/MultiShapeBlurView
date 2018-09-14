@@ -15,5 +15,11 @@ allprojects {
 }
 ```
 
-[Contribution guidelines for this project](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
+
+
+
+
+[For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
+
+
 
