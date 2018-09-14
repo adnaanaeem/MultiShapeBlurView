@@ -34,7 +34,7 @@ defaultConfig {
 
 <h1>Implementation</h1>
 
-<h5>Put blur method in your activity and call it form anywhere with its parameters </h5>
+<h5>Step #4.Put blur method in your activity and call it form anywhere with its parameters </h5>
 
 ```
  private void applyBlurView(int r, int size) {
@@ -48,7 +48,7 @@ defaultConfig {
     
 ```
 
-<h5>now time to call blurmethod to apply blur effect </h5>
+<h5>Step #5.Now time to call blurmethod to apply blur effect </h5>
 
 ```
 
