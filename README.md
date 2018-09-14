@@ -34,6 +34,32 @@ defaultConfig {
 
 <h1>Implementation</h1>
 
+<h5>Step #4. Add actual imageview Which you ant  to blur after hat place <b>shapelayout</b> fot blur shape and then place blured imagevIew in this layout </h5>
+
+```
+  <ImageView
+            android:id="@+id/actual_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:scaleType="centerCrop" />
+
+        <com.contentarcade.adnan.shapedblurlibrary.view.ShapeLayout
+            android:id="@+id/shape_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+
+            <ImageView
+                android:id="@+id/blurred_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+        </com.contentarcade.adnan.shapedblurlibrary.view.ShapeLayout>
+
+```
+
 <h5>Step #4. Put blur method in your activity and call it form anywhere with its parameters </h5>
 
 ```
