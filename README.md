@@ -60,7 +60,34 @@ defaultConfig {
 
 ```
 
-<h5>Step #4. Put blur method in your activity and call it form anywhere with its parameters </h5>
+<h5>Step #5. There are multiple shapes layout you can choose single one or all its up to you </h5>
+ <h6><b>ShapeLayout</b> is universal layout to get all the views. you can switch views on run time</h6> 
+
+```
+  <com.contentarcade.adnan.shapedblurlibrary.view.ShapeLayout
+            android:id="@+id/shape_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+  ```
+  
+<h6>Just add <b>ShapeLayout</b> and then switch views in activity using this statements</h6>
+  
+    ```
+     ShapeLayout shapeLayout = (ShapeLayout) findViewById(R.id.shape_layout_overlay);
+     
+     shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.RECTANGLE); // by default
+     // or 
+     shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.CIRCLE);
+     // or 
+     shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.SQUARE);
+     // or
+     shapeLayout.setTypeOfShape(ShapeLayout.ShapeType.CUT);
+     
+ ```
+  ```
+
+<h5>Step #4. Now put blur method in your activity and call it form anywhere with its parameters </h5>
 
 ```
  private void applyBlurView(int r, int size) {
