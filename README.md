@@ -15,7 +15,7 @@ allprojects {
 }
 ```
 
-
+<h4>Step #2. Add the dependency [(See latest release).](https://jitpack.io)</h4>
 
 
 
