@@ -1,5 +1,5 @@
 # MultiShapeBlurView
-<a target="_blank" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/app/src/main/res/drawable/ant.png?raw=true"><img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/app/src/main/res/drawable/ant.png?raw=true" align="left" hspace="1" style="width:50px;height:50px;"></a> This is an Android project. Easy and simple library to apply multy shaped blur filter on images.Like circular view, square view, rectangle view and cutView. The library lets you apply a fast blur effect on any images very fast because the image size will be scaled down before apply the blur effect. Doing it asynchronous or not.
+<a target="_blank" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/app/src/main/res/drawable/ant.png?"><img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/app/src/main/res/drawable/ant.png" align="left" style="width:100px;height:100px;"></a> This is an Android project. Easy and simple library to apply multy shaped blur filter on images.Like circular view, square view, rectangle view and cutView. The library lets you apply a fast blur effect on any images very fast because the image size will be scaled down before apply the blur effect. Doing it asynchronous or not.
 <h2>Sample app</h2>
 Please check the sample app and feel free to ask any thing related to this library.
 
