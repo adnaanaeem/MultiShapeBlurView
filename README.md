@@ -107,6 +107,8 @@ defaultConfig {
 
 <h3>If you want to use only specfic shape blur then use these.</h3>
 
+<h4>Circular Blur View.</h4>
+
 ```
   <com.contentarcade.adnan.shapedblurlibrary.view.CircleLayout
             android:id="@+id/circle_layout_overlay"
@@ -114,6 +116,7 @@ defaultConfig {
             android:layout_height="match_parent"
             android:elevation="10dp">
 ```
+<h4>Rectangular Blur View.</h4>
 
 ```
  <com.contentarcade.adnan.shapedblurlibrary.view.RectangleLayout
@@ -123,6 +126,8 @@ defaultConfig {
             android:elevation="10dp">
 ``` 
 
+<h4>Square Blur View.</h4>
+
 ```
  <com.contentarcade.adnan.shapedblurlibrary.view.SquareLayout
             android:id="@+id/square_layout_overlay"
@@ -130,6 +135,8 @@ defaultConfig {
             android:layout_height="match_parent"
             android:elevation="10dp">
 ``` 
+
+<h4>AngleCut Blur View.</h4>
 
 ```
  <com.contentarcade.adnan.shapedblurlibrary.view.CutLayout
