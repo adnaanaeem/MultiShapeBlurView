@@ -5,9 +5,11 @@ Please check the sample app and feel to ask or any thing related to this library
 
 <h2>Setup</h2>
 
+```
 allprojects {
     repositories {
         ...
         maven { url "https://jitpack.io" }
     }
 }
+```
