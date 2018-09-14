@@ -16,8 +16,11 @@ allprojects {
 ```
 
 <h4>Step #2. Add the dependency [See Latest Release](https://jitpack.io) </h4>
-
-
+```
+dependencies {
+    implementation 'com.contentarcade.adnan.shapedblurview:+'
+}
+```
 
 [For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
 
