@@ -35,6 +35,28 @@ defaultConfig {
 <h1>Implementation</h1>
 
 ```
+
+ // call this method any where
+  applyBlurView(GaussianBlur.MAX_RADIUS, GaussianBlur.MAX_SIZE);
+
+```
+
+<h6>Put Blur method in your activity and call it form anywhere with its parameters </h6>
+
+```
+ private void applyBlurView(int r, int size) {
+        GaussianBlur.with(this)
+                .size(size)
+                .radius(r)
+                .put(R.drawable.home, blurredImage);
+        // .put()  also accepts bitmap and drawable
+
+    }
+    
+```
+
+```
+
 //Synchronous blur
 Bitmap blurredBitmap = GaussianBlur.with(context).render(R.mipmap.your_image);
 imageView.setImageBitmap(blurredBitmap);
