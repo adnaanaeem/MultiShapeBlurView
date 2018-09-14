@@ -45,22 +45,18 @@ defaultConfig {
         // .put()  also accepts bitmap and drawable
 
     }
-    
 ```
 
 <h5>Step #5. Now time to call blur method to apply blur effect </h5>
 
 ```
-
  // call this method any where with its parameters
  int blurRadius = 10;
  int blurImageScaledDwonSize = 200;
   applyBlurView(blurRadius, blurImageScaledDwonSize);
-
 ```
 
 ```
-
 //Synchronous blur
 Bitmap blurredBitmap = GaussianBlur.with(context).render(R.mipmap.your_image);
 imageView.setImageBitmap(blurredBitmap);
