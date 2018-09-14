@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <ImageView
+            android:id="@+id/actual_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:scaleType="centerCrop" />
+
+        <com.contentarcade.adnan.shapedblurlibrary.view.ShapeLayout
+            android:id="@+id/shape_layout_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp">
+
+            <ImageView
+                android:id="@+id/blurred_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+        </com.contentarcade.adnan.shapedblurlibrary.view.ShapeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:weightSum="5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:weightSum="3"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:weightSum="10"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:layout_weight="3"
+                    android:id="@+id/radius_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="radius: "/>
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:layout_weight="7"
+                    android:id="@+id/blur_radius_seekbar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="25"
+                    android:min="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:weightSum="10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_weight="3"
+                    android:id="@+id/size_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Size: " />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:layout_weight="7"
+                    android:id="@+id/image_size_seekbar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="800"
+                    android:min="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="10"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/blur_txt"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blur Area: " />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:layout_weight="7"
+                    android:id="@+id/blur_area_seekbar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="1000"
+                    android:min="0"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="square_click"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="10dp"
+                android:layout_height="wrap_content"
+                android:text="Square"/>
+
+            <Button
+                android:onClick="circle_click"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="10dp"
+                android:layout_height="wrap_content"
+                android:text="Circle"/>
+
+            <Button
+                android:onClick="rectangle_click"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="10dp"
+                android:layout_height="wrap_content"
+                android:text="Rectangle"/>
+
+            <Button
+                android:onClick="cut_click"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="10dp"
+                android:layout_height="wrap_content"
+                android:text="Cut"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
