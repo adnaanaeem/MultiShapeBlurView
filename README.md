@@ -41,7 +41,7 @@ defaultConfig {
         GaussianBlur.with(this)
                 .size(size)
                 .radius(r)
-                .put(R.drawable.home, blurredImage);
+                .put(R.drawable.home, imageView);
         // .put()  also accepts bitmap and drawable
 
     }
@@ -54,18 +54,6 @@ defaultConfig {
  int blurRadius = 10;
  int blurImageScaledDwonSize = 200;
   applyBlurView(blurRadius, blurImageScaledDwonSize);
-```
-
-```
-//Synchronous blur
-Bitmap blurredBitmap = GaussianBlur.with(context).render(R.mipmap.your_image);
-imageView.setImageBitmap(blurredBitmap);
-   
-//Asynchronous blur
-GaussianBlur.with(context).put(R.mipmap.your_image, imageView);
-
-//Asynchronous with scaleDown and changing radius
-GaussianBlur.with(context).size(300).radius(10).put(R.mipmap.your_image, imageView);
 ```
 
 [For Sample File of Implementation guide click here](https://github.com/Adnan865/MultiShapeBlurView/tree/master/app/src/main/java/com/contentarcade/adnan/shapedblurview)
