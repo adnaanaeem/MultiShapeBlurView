@@ -53,7 +53,7 @@ defaultConfig {
             android:elevation="10dp">
 
             <ImageView
-                android:id="@+id/blurred_image"
+                android:id="@+id/blurred_imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
@@ -92,7 +92,7 @@ defaultConfig {
         GaussianBlur.with(this)
                 .size(size)
                 .radius(r)
-                .put(R.drawable.home, imageView);
+                .put(R.drawable.home, blurred_imageView);
         // .put()  also accepts bitmap and drawable
 
     }
