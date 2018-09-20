@@ -8,28 +8,27 @@ Please check the sample app and feel free to ask any thing related to this libra
 
 <p>
 
-<div class="row">
+<div class="row" id="banner" style="overflow: hidden; display: flex; justify-content:space-around;">
   <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png" height="auto" width="350" style="max-width:100%;"></a> 
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png" height="auto" width="210"></a> 
 	  </dive>
 
  <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout.png" height="auto" width="350" style="max-width:100%;"></a>
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout.png" height="auto" width="210"></a>
 	  </div>
 
 <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png" height="auto" width="350" style="max-width:100%;"></a>
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png" height="auto" width="210"></a>
 	</div>
 
 <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png" height="auto" width="350" style="max-width:100%;"></a>
-	</div>
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png" height="auto" width="210"></a>
 </div>
-
+</div>
 </p>
 
 <h2>Setup</h2>
