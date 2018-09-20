@@ -10,23 +10,23 @@ Please check the sample app and feel free to ask any thing related to this libra
 
 <div class="row">
   <div class="column">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/circular_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/circular_layout.png" height="auto" width="350" style="max-width:100%;"></a> 
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png" height="auto" width="350" style="max-width:100%;"></a> 
 	  </dive>
 
  <div class="column">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/rectangle_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/rectangle_layout" height="auto" width="350" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout.png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout" height="auto" width="350" style="max-width:100%;"></a>
 	  </div>
 
 <div class="column">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/square_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/square_layout.png" height="auto" width="350" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png" height="auto" width="350" style="max-width:100%;"></a>
 	</div>
 
 <div class="column">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/cut_layout.png">
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/cut_layout.png" height="auto" width="350" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png" height="auto" width="350" style="max-width:100%;"></a>
 	</div>
 </div>
 
