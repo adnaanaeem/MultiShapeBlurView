@@ -29,6 +29,14 @@ Please check the sample app and feel free to ask any thing related to this libra
 <img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png" height="auto" width="200"></a>
 </div>
 </div>
+#banner {
+width: 500px;
+height: 300px;
+overflow: hidden;
+border: 3px double #000;
+white-space: nowrap;
+}
+
 </p>
 
 <h2>Setup</h2>
