@@ -1,9 +1,12 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.contentarcade'
+version = '1.0.1'
+
 
 android {
     compileSdkVersion 28
-
-
 
     defaultConfig {
         minSdkVersion 19
