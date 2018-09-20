@@ -8,35 +8,27 @@ Please check the sample app and feel free to ask any thing related to this libra
 
 <p>
 
-<div id="banner" style="overflow: hidden; display: flex; justify-content:space-around;">
-  <div>
+<div class="row">
+   <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png">
 <img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/circular_layout.png" height="auto" width="200"></a> 
 	  </dive>
 
- <div>
+ <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout.png">
 <img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/rectangle_layout.png" height="auto" width="200"></a>
 	  </div>
 
-<div>
+ <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png">
 <img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/square_layout.png" height="auto" width="200"></a>
 	</div>
 
-<div>
+ <div class="column">
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png">
 <img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Screenshots/cut_layout.png" height="auto" width="200"></a>
 </div>
 </div>
-#banner {
-width: 500px;
-height: 300px;
-overflow: hidden;
-border: 3px double #000;
-white-space: nowrap;
-}
-
 </p>
 
 <h2>Setup</h2>
