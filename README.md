@@ -17,7 +17,6 @@ allprojects {
 ```
 
 <h4>Step #2. Add the dependency [See Latest Release]</h4> 
-[![](https://jitpack.io/v/Adnan865/MultiShapeBlurView.svg)](https://jitpack.io/#Adnan865/MultiShapeBlurView)
 
 [![](https://jitpack.io/v/Adnan865/MultiShapeBlurView.svg)](https://jitpack.io/#Adnan865/MultiShapeBlurView)
 
