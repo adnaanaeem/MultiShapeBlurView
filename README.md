@@ -1,5 +1,5 @@
 # MultiShapeBlurView
-<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/app/src/main/res/drawable/ant.png" align="left" height="auto" width="120" hspace="1" style="max-width:100%;"> 
+[![](https://jitpack.io/v/Adnan865/MultiShapeBlurView.svg)](https://jitpack.io/#Adnan865/MultiShapeBlurView)
 
 [ ![Download](https://api.bintray.com/packages/hexadevelopers/MultiShapeBlurView/MultiShapeBlurView/images/download.svg) ](https://bintray.com/hexadevelopers/MultiShapeBlurView/MultiShapeBlurView/_latestVersion)
 
