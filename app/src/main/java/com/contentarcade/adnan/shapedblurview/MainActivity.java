@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void blur_area_seekbar_method(){
         blurAreaSeekbar = (SeekBar) findViewById(R.id.blur_area_seekbar);
-        Toast.makeText(this, "radius "+viewWeight, Toast.LENGTH_SHORT).show();
+     //   Toast.makeText(this, "radius "+viewWeight, Toast.LENGTH_SHORT).show();
         blurAreaSeekbar.setMax(720);
         blurAreaSeekbar.setProgress(progressofSquare);
 
