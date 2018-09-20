@@ -23,8 +23,8 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.contentarcade.adnan.shapedblurview:+'
-}
+	        implementation 'com.github.Adnan865:MultiShapeBlurView:1.0.1'
+	}
 ```
 <h4>Step #3. Add the below lines on app module build.gradle file. </h4>
 
