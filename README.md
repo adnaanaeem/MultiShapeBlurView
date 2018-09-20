@@ -6,6 +6,32 @@ This is an Android project. Easy and simple library to apply multi shaped blur f
 <h2>Sample app</h2>
 Please check the sample app and feel free to ask any thing related to this library.
 
+<p>
+
+<div class="row">
+  <div class="column">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-landscape%20(1).png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-landscape%20(1).png" height="auto" width="350" style="max-width:100%;"></a> 
+	  </dive>
+
+ <div class="column">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-landscape%20(2).png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-landscape%20(2).png" height="auto" width="350" style="max-width:100%;"></a>
+	  </div>
+
+<div class="column">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-portrait.png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-portrait.png" height="auto" width="350" style="max-width:100%;"></a>
+	</div>
+
+<div class="column">
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-landscape%20(3).png">
+<img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/Images/Mockups/nexus6p-landscape%20(3).png" height="auto" width="350" style="max-width:100%;"></a>
+	</div>
+</div>
+
+</p>
+
 <h2>Setup</h2>
 <h4>Step #1. Add the JitPack repository to your build file:</h4>
 
