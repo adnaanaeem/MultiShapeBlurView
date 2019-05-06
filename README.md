@@ -1,4 +1,4 @@
-# MultiShapeBlurView  [![](https://jitpack.io/v/Adnan865/MultiShapeBlurView.svg)](https://jitpack.io/#Adnan865/MultiShapeBlurView) ![](https://img.shields.io/badge/Android%20Arsenal-MultiShapeBlurView-green.svg?style=flat)
+# MultiShapeBlurView  [![](https://jitpack.io/v/Adnan865/MultiShapeBlurView.svg)](https://jitpack.io/#Adnan865/MultiShapeBlurView) [![](https://img.shields.io/badge/Android%20Arsenal-MultiShapeBlurView-green.svg?style=flat)](https://android-arsenal.com/details/1/7648)
 
 <img src="https://github.com/Adnan865/MultiShapeBlurView/blob/master/app/src/main/res/drawable/ant.png?raw=true" align="left" hspace="1" height="120" width="120">
 
